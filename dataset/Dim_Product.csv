@@ -1,0 +1,31 @@
+﻿Product_ID,Product_Name,Product Image,Category,Sub_Category,Brand,MRP,Selling_Price,Stock_Quantity
+PROD_1001,Puma T-Shirt - Model 101,https://i.ibb.co/V0Yq6G89/1.jpg,Men's Clothing,T-Shirts,PUMA,7999,6879.14,
+PROD_1002,Levis Jean - Model 102,https://i.ibb.co/k2fX7JfH/2.jpg,Men's Clothing,Jeans,Levis,1499,1199.2,81
+PROD_1003,Superdry Jacket - Model 103,https://i.ibb.co/nVBfH3B/3.jpg,  Men's Clothing   ,Jackets,Superdry,799,503.37,466
+PROD_1004,Roadster Shirt - Model 104,https://i.ibb.co/Tqg9456p/4.jpg,MEN'S CLOTHING,Shirts,Roadster,3999,3479.13,226
+PROD_1005,Manyavar Ethnic Wear - Model 105,https://i.ibb.co/W4CmndBF/5.jpg,Men's Clothing,Ethnic Wear,Manyavar,499,444.11,121
+PROD_1006,Biba Kurti & Suit - Model 106,https://i.ibb.co/SDRyGmMS/6.jpg,Women's Clothing,Kurti & Suits,Biba,1299,909.3,23
+PROD_1007,VERO MODA Dresse - Model 107,https://i.ibb.co/231jSFRb/7.jpg,  Women's Clothing   ,Dresses,VERO MODA,3999,3279.18,342
+PROD_1008,ONLY Jean - Model 108,https://i.ibb.co/PGwmH5KG/8.jpg,Women's Clothing,Jeans,ONLY,3999,2919.27,239
+PROD_1009,FabIndia Saree - Model 109,https://i.ibb.co/q3jSnbBz/9.jpg,Women's Clothing,Sarees,FabIndia,4999,3949.21,455
+PROD_1010,Aurelia Top - Model 110,https://i.ibb.co/B5T5FG7Y/10.jpg,Women's Clothing,Tops,Aurelia,499,299.4,91
+PROD_1011,Nike Sneaker - Model 111,https://i.ibb.co/JwSfwGCW/11.jpg,Footwear,Sneakers,Nike,2499,1899.24,
+PROD_1012,Bata Formal Shoe - Model 112,https://i.ibb.co/NkwxSfB/12.jpg,Footwear,Formal Shoes,Bata,1299,675.48,182
+PROD_1013,Adidas Running Shoe - Model 113,https://i.ibb.co/rfH6V5xF/13.jpg,Footwear,Running Shoes,adidas,799,687.14,59
+PROD_1014,Metro Heel - Model 114,https://i.ibb.co/nM9mx8tT/14.jpg,Footwear,Heels,Metro,1999,1119.44,319
+PROD_1015,Catwalk Flat - Model 115,https://i.ibb.co/mrnsxXJ0/15.jpg,Footwear,Flats,Catwalk,1499,869.42,383
+PROD_1016,Mothercare Boys T-Shirt - Model 116,https://i.ibb.co/fL9LGP2/16.jpg,  Kids   ,Boys T-Shirts,Mothercare,2999,2069.31,482
+PROD_1017,Gini & Jony Girls Dresse - Model 117,https://i.ibb.co/gLWk14GP/17.jpg,Kids,Girls Dresses,Gini & Jony,2499,2174.13,160
+PROD_1018,Hopscotch Infant Wear - Model 118,https://i.ibb.co/pvp5fw1W/18.jpg,Kids,Infant Wear,Hopscotch,7999,5199.35,451
+PROD_1019,Fossil Watche - Model 119,https://i.ibb.co/6cGm3wbL/19.jpg,Accessories,Watches,Fossil,1999,1339.33,370
+PROD_1020,Lavie Handbag - Model 120,https://i.ibb.co/6cHWXC4D/20.jpg,Accessories,Handbags,  Lavie   ,799,703.12,
+PROD_1021,Ray-Ban Sunglasse - Model 121,https://i.ibb.co/yB0Y7pqr/21.jpg,Accessories,Sunglasses,Ray-Ban,1499,764.49,447
+PROD_1022,WildHorn Belts & Wallet - Model 122,https://i.ibb.co/1YTqpNvf/22.jpg,  Accessories   ,Belts & Wallets,WildHorn,1299,714.45,204
+PROD_1023,Plum Skincare - Model 123,https://i.ibb.co/cfQ5Jvh/23.jpg,Beauty & Personal Care,Skincare,Plum,1499,1079.28,437
+PROD_1024,Maybelline Makeup - Model 124,https://i.ibb.co/zh0NbtxV/24.jpg,Beauty & Personal Care,Makeup,Maybelline,1999,1659.17,191
+PROD_1025,L'Oreal Haircare - Model 125,https://i.ibb.co/Cs7yNhyV/25.jpg,beauty & personal care,Haircare,L'Oreal,1299,818.37,369
+PROD_1026,Bombay Dyeing Bedsheet - Model 126,https://i.ibb.co/YB5z2QrW/26.jpg,HOME & KITCHEN,Bedsheets,bombay dyeing,7999,5119.36,321
+PROD_1027,Home Centre Curtain - Model 127,https://i.ibb.co/RG7fh7rZ/27.jpg,home & kitchen,Curtains,Home Centre,7999,6639.17,383
+PROD_1028,Spaces Cushion Cover - Model 128,https://i.ibb.co/dw4HC7Zs/28.jpg,Home & Kitchen,Cushion Covers,Spaces,1299,1078.17,204
+PROD_1029,Noise Smartwatche - Model 129,https://i.ibb.co/bg8rXPFB/29.jpg,Electronics Accessories,Smartwatches,Noise,1499,749.5,337
+PROD_1030,boat Audio - Model 130,https://i.ibb.co/5XJYstvW/30.jpg,Electronics Accessories,Audio,boat,3999,3239.19,176

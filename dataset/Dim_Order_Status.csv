@@ -1,0 +1,7 @@
+﻿Status_ID,Order_Status,Description
+ST_DEL,Delivered,Order successfully delivered
+ST_SHP,Shipped,Order in transit
+ST_PEN,Pending,Order placed but not processed
+ST_CAN,Cancelled,Order cancelled by customer or merchant
+ST_RET,Returned,Item returned by customer
+ST_EXC,Exchanged,Item exchanged for size/color

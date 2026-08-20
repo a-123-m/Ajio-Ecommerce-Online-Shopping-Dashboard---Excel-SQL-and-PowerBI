@@ -1,0 +1,7 @@
+﻿Payment_Method_ID,Payment_Method,Payment_Category
+PAY_UPI,UPI,Digital Wallet
+PAY_CC,Credit Card,Card
+PAY_DC,Debit Card,Card
+PAY_COD,cash on delivery,Offline
+PAY_NB,NET BANKING,Banking
+PAY_AJIO_WALLET,AJIO Wallet,Store Credit
