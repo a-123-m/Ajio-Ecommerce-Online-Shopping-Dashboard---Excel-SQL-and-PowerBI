@@ -182,10 +182,10 @@ Interpreted the analytical results and translated them into meaningful KPI and v
 ## 💡 Key Insights
 
 1. Executive Sales Overview
-   <img width="1095" height="600" alt="image" src="https://github.com/user-attachments/assets/d9927a03-fd5b-44d4-9e2d-fbff602e011c" />
+<img width="1095" height="600" alt="image" src="https://github.com/user-attachments/assets/d9927a03-fd5b-44d4-9e2d-fbff602e011c" />
 
 2. Customers and Products Analysis
-  <img width="1092" height="587" alt="image" src="https://github.com/user-attachments/assets/b32f244e-4e45-4bbe-8a91-f594727098f2" />
+<img width="1092" height="587" alt="image" src="https://github.com/user-attachments/assets/b32f244e-4e45-4bbe-8a91-f594727098f2" />
 
 3. Returns and Payments Analysis
 <img width="1090" height="502" alt="image" src="https://github.com/user-attachments/assets/2e61914e-3a3b-4ad6-9064-8e0f548aa565" />
