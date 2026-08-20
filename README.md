@@ -30,10 +30,24 @@ The final solution consists of an interactive Power BI report that allows users 
 | **Power BI (Power Query / DAX / Data Modeling)** | Data modelling, KPI development, interactive dashboards, drill-throughs, slicers and advanced visualisation |
 
 ## 📊 Dashboard Preview
+<img width="1323" height="740" alt="Screenshot 2026-08-20 203151" src="https://github.com/user-attachments/assets/0108e3d2-e104-4d67-b76b-40daeb6353fe" />
+<img width="1321" height="739" alt="Screenshot 2026-08-20 203224" src="https://github.com/user-attachments/assets/2f462730-aa16-4d18-94b2-202fa2c25a67" />
+<img width="1324" height="736" alt="Screenshot 2026-08-20 203310" src="https://github.com/user-attachments/assets/792c6a62-269e-454b-8369-75e5004827a8" />
+<img width="1325" height="737" alt="Screenshot 2026-08-20 203331" src="https://github.com/user-attachments/assets/59025f2b-9106-4c70-89f2-4bea76a740c3" />
+<img width="1327" height="740" alt="Screenshot 2026-08-20 203359" src="https://github.com/user-attachments/assets/304f79fe-09a3-403b-adc0-c7eaa5a18dc3" />
+<img width="1330" height="742" alt="Screenshot 2026-08-20 203424" src="https://github.com/user-attachments/assets/953544dd-02ee-4807-83a0-c94cacd19893" />
+<img width="1321" height="734" alt="Screenshot 2026-08-20 203446" src="https://github.com/user-attachments/assets/7384c3ce-a316-4981-b5ab-a30082cf7d6f" />
+<img width="1318" height="734" alt="Screenshot 2026-08-20 203513" src="https://github.com/user-attachments/assets/de55513c-463e-4527-923e-97ade71ab8cd" />
+
 ## 🎥 Dashboard Walkthrough
 
 ## 🤖 AI-Powered Analytics
-I incorporated **AI-powered visual - Decomposition Tree** to perform deeper data analysis on questions like : What drives Sales? and What drives Order Returns?
+I incorporated **AI-powered visual - Decomposition Tree** to perform deeper data analysis on questions like : 
+* What drives Sales?
+* What drives Order Returns?
+<img width="1072" height="327" alt="image" src="https://github.com/user-attachments/assets/b298eedd-32cd-44b7-9db5-0cc303bea555" />
+<img width="1062" height="337" alt="image" src="https://github.com/user-attachments/assets/16b9cba8-3ccf-4c32-a234-ae5c1024aad2" />
+
 
 ## 🎛️ Interactive Power BI Features
     ├── Slicers
@@ -47,7 +61,7 @@ I incorporated **AI-powered visual - Decomposition Tree** to perform deeper data
 
 ### 1. Synthetic Data Generation
 
-Created a realistic synthetic dataset to simulate a real-world business scenario, including relevant dimensions, transactions, metrics and business attributes required for analysis of Ajio ecommerce online shopping website.
+Created a realistic synthetic dataset for Ajio to simulate a real-world business scenario, including relevant dimensions, transactions, metrics and business attributes required for analysis of Ajio ecommerce online shopping website.
 
 ### 2. Data Understanding, Exploration and creation of Data Dictionary
 
@@ -80,6 +94,7 @@ Loaded the data into PostgreSQL and performed more advanced transformations incl
 * Data validation
 * Joins
 * Exploratory SQL queries
+> View ajiosql.sql file for the complete SQL script
 
 ### 6. Creation of BI Views
 
@@ -129,6 +144,26 @@ dim_Date = ADDCOLUMNS(CALENDARAUTO(),
 ### 10. DAX Development
 
 Created separate DAX measures and calculations for business KPIs, including aggregations, percentages, comparisons, trends and other analytical metrics required for the 3 report pages.
+Some of the Key DAX measures created are as follows:
+1. Total sales = SUM('public fact_sales_view'[total_amount])
+2. Total orders = DISTINCTCOUNT('public fact_sales_view'[order_id])
+3. Total customers = DISTINCTCOUNT('public fact_sales_view'[customer_id])
+4. Units sold = SUM('public fact_sales_view'[quantity])
+5. AOV = DIVIDE([Total sales],[Total orders],0)
+6. Total products = DISTINCTCOUNT('public fact_sales_view'[product_id])
+7. Avg customer spent = DIVIDE([Total sales],[Total customers],0)
+8. Returned orders = CALCULATE(DISTINCTCOUNT('public fact_returns_view'[order_id]),'public dim_order_status_view'[order_status]="Returned")
+9. Return rate = DIVIDE([Returned orders],[Total orders],0)
+10. Payment success rate = 
+VAR _totalpayments = COUNTROWS('public fact_payments_view')
+VAR success = CALCULATE(COUNTROWS('public fact_payments_view'),'public fact_payments_view'[payment_status]="Success")
+var result = DIVIDE(success,_totalpayments,0)
+RETURN result
+11. Payment failure rate = 
+VAR _totalpayments = COUNTROWS('public fact_payments_view')
+VAR failure = CALCULATE(COUNTROWS('public fact_payments_view'),'public fact_payments_view'[payment_status]="Failed")
+var result = DIVIDE(failure,_totalpayments,0)
+RETURN result
 
 ### 11. Understanding Brand Guidelines
 Reviewed the brand guidelines to understand the required:
