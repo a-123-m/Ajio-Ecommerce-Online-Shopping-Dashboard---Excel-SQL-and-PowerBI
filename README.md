@@ -41,6 +41,9 @@ The final solution consists of an interactive Power BI report that allows users 
 
 ## 🎥 Dashboard Walkthrough
 
+https://github.com/user-attachments/assets/a81d1885-79dd-4435-8ea2-2bd7421e54b9
+
+
 ## 🤖 AI-Powered Analytics
 I incorporated **AI-powered visual - Decomposition Tree** to perform deeper data analysis on questions like : 
 * What drives Sales?
